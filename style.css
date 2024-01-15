@@ -7,11 +7,80 @@
     scroll-behavior: smooth;
 }
 
-#img-renata {
-    width: 4rem;
-    border-radius: 50%;
+#box-images {
+    position: relative;
+    background: url(images/joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg) center center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box-text{
+    text-align: center;
 }
 
-.header-menu {
-    al
+#img-renata {
+    width: 18rem;
+    height: auto;
+    border-radius: 20%;
+}
+
+#txt-images {
+    color: white;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu a:hover {
+    color: #FFA732;
+}
+
+.header-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-menu li {
+    margin-right: 15px;
+}
+
+.header-menu a {
+    color: white;
+    font-size: 1.4em;
+}
+
+.titles{
+text-align: center;
+margin-top: 1em;
+}
+
+#about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#about-me h3{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#about-me ul {
+    list-style-type: none;
+}
+
+.conteiner-about-me {
+    padding: 2em;
 }

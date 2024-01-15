@@ -4,20 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Poppins:wght@100;300;500;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
     <script src="script.js"></script>
     <title>Portifólio - Renata</title>
 </head>
 
 <body>
-    <header class="header">
-        <a href="/">
-            <img id="img-renata" src="images/eu.png" alt="Minha foto">
-        </a>
+    <header>
         <nav class="header-menu">
             <ul>
                 <li>
-                    <a href="/">Sobre</a>
+                    <a href="#about-me">Sobre mim</a>
                 </li>
                 <li>
                     <a href="/">Formação</a>
@@ -32,14 +30,36 @@
         </nav>
     </header>
     <main>
+        <div id="box-images">
+            <div id="box-text">
+                <img id="img-renata" src="images/eu.png" alt="Minha foto pessoal">
+                <div id="txt-images">
+                    <h1>Renata Pulz</h1>
+                    <h2>Seja bem vindo ao meu portfólio!</h2>
+                </div>
+            </div>
+        </div>
         <article>
-            <h2>Infos </h2>
-            <ol>
-                <li>Meu nome é Renata</li>
-                <li>Tenho 33 anos</li>
-                <li>Fiz a migração de carreira há quase 2 anos</li>
-                <li>Atualmente sou QA</li>
-            </ol>
+            <h2 class="titles">Sobre mim</h2>
+            <div id="about-me">
+                <div class="conteiner-about-me">
+                    <h3> Infos pessoais:</h3>
+                    <ul>
+                        <li>Tenho 34 anos</li>
+                        <li>Natural de Natal/RN</li>
+                        <li>Moro em Florianópolis há quase 4 anos</li>
+                        <li>Sou casada</li>
+                        <li>Tenho uma filha de 10 anos</li>
+                    </ul>
+                </div>
+                <div class="conteiner-about-me">
+                    <h3> Um pouco da minha história:</h3>
+                    <p>Após mais de uma década dedicada ao atendimento ao cliente e vendas, fiz uma transição de carreira para o mundo da tecnologia. Finalizei um curso de Frontend/Mobile na Soulcode, consolidando meu interesse pela área.<br><br>
+                    Atuo há dois anos como QA, na empresa atual tive a oportunidade de assumir o papel de Team Lead, liderando 2 times, foi uma experiência muito desafiadora e de grande valia.<br><br>
+                    Em busca contínua de aprendizado, estou participando do programa "Floripa Mais Tec" enquanto avanço no segundo semestre da faculdade de Análise e Desenvolvimento de Sistemas. O objetivo? Tornar-me uma Desenvolvedora Front-End e contribuir para a inovação tecnológica.</p>
+                </div>
+                
+            </div>
         </article>
         <section>
             <h2>Experiências </h2>
