@@ -10,6 +10,7 @@
 #box-images {
     position: relative;
     background: url(images/joshua-woroniecki-lzh3hPtJz9c-unsplash.jpg) center center no-repeat;
+    background-attachment: fixed;
     height: 100vh;
     background-size: cover;
     display: flex;
