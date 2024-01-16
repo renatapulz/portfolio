@@ -119,6 +119,7 @@ margin-bottom: 1em;
     height: 450px;
     display: flex;
     transition: transform 0.5s ease-in-out;
+    padding-bottom: 50px;
 }
 
 .carrossel input {
@@ -211,4 +212,18 @@ margin-bottom: 1em;
 
 #radio4:checked ~.navigation-auto .btn-4 {
     background-color: #FFB84C;
+}
+
+/* formação */
+.conteiner-formation {
+    padding: 0 40px;
+}
+
+.conteiner-formation li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.conteiner-formation img {
+    margin-right: 10px;
 }
