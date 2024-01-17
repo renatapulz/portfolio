@@ -80,23 +80,23 @@ margin-bottom: 1em;
 }
 
 /* sobre mim */
-#about-me{
+.container-text {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     align-items: flex-start;
 }
 
-#about-me h3{
+.container-text h3{
     text-align: left;
     margin-bottom: 1em;
 }
 
-#about-me ul {
+.container-text ul {
     list-style-type: none;
 }
 
-.conteiner-about-me {
+.conteiner-info2 {
     width: 65%;
     padding-left: 15px;
 }
@@ -227,3 +227,43 @@ margin-bottom: 1em;
 .conteiner-formation img {
     margin-right: 10px;
 }
+
+/* Contato */
+#contact {
+    margin-top: 40px;
+}
+
+.conteiner-info2 input {
+    width: 90%;
+    padding: 8px 10px;
+    margin: 8px 10px;
+    border-radius: 8px;
+}
+
+.conteiner-info2 textarea {
+    width: 90%;
+    padding: 8px 10px;
+    margin: 8px 10px;
+    border-radius: 8px;
+    border: 2px solid;
+}
+
+.conteiner-info2 button {
+    float: right;
+    background-color: #FFB84C;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.conteiner-info2 button:active {
+    background-color: #FFB534; 
+    transform: translateY(2px);
+    font-weight: bold;
+}
+

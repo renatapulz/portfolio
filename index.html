@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Poppins:wght@100;300;500;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Poppins:wght@100;300;500;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
     <script src="script.js"></script>
     <title>Portifólio - Renata</title>
@@ -24,7 +26,7 @@
                     <a href="#formation">Formação</a>
                 </li>
                 <li>
-                    <a href="/">Contato</a>
+                    <a href="#contact">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -42,7 +44,7 @@
         <article class="sections-page">
             <div class="container">
                 <h2 class="titles" id="about">Sobre mim</h2>
-                <div id="about-me">
+                <div class="container-text">
                     <div class="conteiner-info">
                         <h3> Infos pessoais:</h3>
                         <ul>
@@ -53,7 +55,7 @@
                             <li>Tenho uma filha de 10 anos</li>
                         </ul>
                     </div>
-                    <div class="conteiner-about-me">
+                    <div class="conteiner-info2">
                         <h3> Um pouco da minha história:</h3>
                         <p>Após mais de uma década dedicada ao atendimento de clientes e vendas, fiz a transição de
                             carreira para o mundo da tecnologia. Finalizei um curso de Frontend/Mobile na Soulcode, e
@@ -112,21 +114,43 @@
                 <h2 class="titles" id="formation">Formação</h2>
                 <div class="conteiner-formation">
                     <ul>
-                        <li><img src="images/icon.svg" alt="Ícone de um chápeu de formatura">Bootcamp SoulCode - 740 hras. </li>
-                        <li><img src="images/icon.svg" alt="Ícone de um chápeu de formatura">Curso da BeeLab de qualidade de Software - 40 Hras</li>
-                        <li><img src="images/icon.svg" alt="Ícone de um chápeu de formatura">Faculdade Análise e Desenvolv. de Sistemas - SENAC (cursando 2 semestre).</li>
-                        <li><img src="images/icon.svg" alt="Ícone de um chápeu de formatura">Cursos livres em diversos temas ligados a área, como: front end, Scrum, Jira, Automação de testes, Testes em API, liderança, comunicação.  </li>
+                        <li><img src="images/icon.svg" alt="Ícone de um chápeu de formatura">Bootcamp SoulCode - 740
+                            hras. </li>
+                        <li><img src="images/icon.svg" alt="Ícone de um chápeu de formatura">Curso da BeeLab de
+                            qualidade de Software - 40 Hras</li>
+                        <li><img src="images/icon.svg" alt="Ícone de um chápeu de formatura">Faculdade Análise e
+                            Desenvolv. de Sistemas - SENAC (cursando 2 semestre).</li>
+                        <li><img src="images/icon.svg" alt="Ícone de um chápeu de formatura">Cursos livres em diversos
+                            temas ligados a área, como: front end, Scrum, Jira, Automação de testes, Testes em API,
+                            liderança, comunicação. </li>
                     </ul>
                 </div>
             </div>
             </div>
         </article>
-        <article>
-            <section>
-                <h2>Contato </h2>
-            </section>
+        <section>
+            <div class="container">
+                <h2 class="titles" id="contact">Contato</h2>
+                <div class="container-text">
+                    <div class="conteiner-info">
+                        <p>svsdv</p>
+                    </div>
+                    <div class="conteiner-info2">
+                        <form action="https://formsubmit.co/2a0fee3d43ad6eb1434262fd4c6a5d14" method="POST">
+                            <label for="email">E-mail</label>
+                            <input type="email" name="email" id="email" placeholder="Digite seu email para contato" required>
+                            <label for="message">Mensagem</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
