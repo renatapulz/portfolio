@@ -238,6 +238,7 @@ header {
     padding: 8px 10px;
     margin: 8px 10px;
     border-radius: 8px;
+    border: 2px solid;
 }
 
 .conteiner-info2 textarea {
@@ -345,7 +346,6 @@ header {
         font-size: 45px;
     }
 
-
     .mobile-menu ul {
         display: flex;
         flex-direction: column;
@@ -383,6 +383,10 @@ header {
     .conteiner-info2 {
         width: auto;
         padding-left: 0;
+    }
+
+    .conteiner-info h3 {
+        margin-top: 10px;
     }
 
     .rodape {
