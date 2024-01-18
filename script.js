@@ -14,3 +14,16 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById("radio" + count).checked = true;
     }
 });
+
+function menuShow() {
+    let menuMobile = document.querySelector('.mobile-menu');
+    let iconButton = document.querySelector('.material-symbols-outlined');
+
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+        iconButton.textContent = "menu";
+    } else {
+        menuMobile.classList.add('open');
+        iconButton.textContent = "close";
+    }
+}
