@@ -94,7 +94,7 @@ header {
 
 .container-text h3 {
     text-align: left;
-    margin-bottom: 1em;
+    margin: 1em 0;
 }
 
 .container-text ul {
@@ -385,9 +385,9 @@ header {
         padding-left: 0;
     }
 
-    .conteiner-info h3 {
+    /* .conteiner-info h3 {
         margin-top: 10px;
-    }
+    } */
 
     .rodape {
         background-attachment: inherit;
