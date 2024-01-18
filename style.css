@@ -219,10 +219,6 @@ header {
 }
 
 /* formação */
-.conteiner-formation {
-    //padding: 0 40px;
-}
-
 .conteiner-formation li {
     list-style: none;
     padding: 5px 0;
@@ -349,16 +345,6 @@ header {
         font-size: 45px;
     }
 
-    .mobile-menu {
-        display: none;
-        opacity: 0;
-        transition: opacity 0.5s ease-in-out;
-    }
-
-    .mobile-menu.open {
-        display: block;
-        opacity: 1; /* Quando aberto, definir a opacidade para 1 */
-    }
 
     .mobile-menu ul {
         display: flex;
