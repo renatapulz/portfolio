@@ -31,6 +31,7 @@
 
 #txt-images {
     color: white;
+    visibility: hidden;
 }
 
 /* p/ padronização */
@@ -77,6 +78,7 @@ header {
 .sections-page {
     background-color: #F8E8EE;
     padding: 60px 0;
+    visibility: hidden;
 }
 
 .titles {
